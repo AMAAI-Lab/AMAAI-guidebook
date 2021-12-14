@@ -1,0 +1,2 @@
+# Automatic Music Transcription
+Automatic Music Transcription (AMT), is a fundamental problem in the field of Music Information Retrieval (MIR). The transcribed symbolic representations have a wide range of applications including music indexing {cite}`cuthbert2010music21,sun2017query`, music generation {cite}`huang2020pop`, music recommendation system (MRS) {cite}`chen2001music, merono2017midi, yamaguchi2019music`, music analysis {cite}`kong2020large, jiang2019melody, liumei2021k`, and automatic music accompaniment {cite}`magalhaeschordify`.

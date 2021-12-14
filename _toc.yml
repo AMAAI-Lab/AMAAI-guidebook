@@ -1,0 +1,39 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: docs/index
+parts:
+- caption: SUTD Starter Pack
+  chapters:
+  - file: docs/starter_pack/setting_up/index
+    sections:  
+    - file: docs/starter_pack/setting_up/mac/index
+    - file: docs/starter_pack/setting_up/mac/mac01    
+      
+  
+  - file: docs/starter_pack/tutorials/linux/index
+    sections:
+    - file: docs/starter_pack/tutorials/linux/linux_tutorial01
+    - file: docs/starter_pack/tutorials/linux/linux_tutorial02
+
+  - file: docs/starter_pack/tutorials/docker/index
+
+  - file: docs/starter_pack/tutorials/python/index
+    sections:
+    - file: docs/starter_pack/tutorials/python/python_tutorial01   
+- caption: Research Projects
+  chapters:
+  - file: docs/projects/nnAudio/intro
+  - file: docs/projects/AMT/amt
+    sections:
+    - file: docs/projects/AMT/amt01
+    - file: docs/projects/AMT/amt02
+  - file: docs/projects/VAE/vae
+  - file: docs/projects/music_generation/generation
+  - file: docs/projects/emotion/emotion
+  - file: docs/projects/reinforcement_learning/intro
+
+- caption: External Links
+  chapters:
+  - file: docs/ref
