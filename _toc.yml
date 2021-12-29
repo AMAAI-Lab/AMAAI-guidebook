@@ -8,20 +8,26 @@ parts:
   chapters:
   - file: docs/starter_pack/setting_up/index
     sections:  
-    - file: docs/starter_pack/setting_up/mac/index
-    - file: docs/starter_pack/setting_up/mac/mac01    
-      
+    - file: docs/starter_pack/setting_up/mac/to_do_list       
   
   - file: docs/starter_pack/tutorials/linux/index
     sections:
-    - file: docs/starter_pack/tutorials/linux/linux_tutorial01
-    - file: docs/starter_pack/tutorials/linux/linux_tutorial02
+    - file: docs/starter_pack/tutorials/linux/what_is_Linux
+    - file: docs/starter_pack/tutorials/linux/important_commands
 
   - file: docs/starter_pack/tutorials/docker/index
 
   - file: docs/starter_pack/tutorials/python/index
     sections:
     - file: docs/starter_pack/tutorials/python/python_tutorial01   
+    
+  - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/index
+    sections:
+    - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/anaconda_cheatsheet
+    - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/git_cheatsheet
+    - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/python_cheatsheet
+    - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/terminal_cheatsheet
+    
 - caption: Research Projects
   chapters:
   - file: docs/projects/nnAudio/intro
