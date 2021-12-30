@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anaconda common code &#8212; SUTD-AMAAI Guidebook</title>
+    <title>Anaconda Cheatsheet &#8212; SUTD-AMAAI Guidebook</title>
     
   <link href="../../../../_static/css/theme.css" rel="stylesheet">
   <link href="../../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -134,11 +134,6 @@
      What Is Linux?
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../linux/important_commands.html">
-     Important commands
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -146,36 +141,19 @@
    Using Docker
   </a>
  </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../python/index.html">
-   Using Python
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../python/python_tutorial01.html">
-     Creating a new python environment
-    </a>
-   </li>
-  </ul>
- </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
    Cheat Sheet
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Anaconda common code
+     Anaconda Cheatsheet
     </a>
    </li>
    <li class="toctree-l2">
@@ -185,7 +163,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="python_cheatsheet.html">
-     Python cheatsheet
+     Python Cheatsheet
     </a>
    </li>
    <li class="toctree-l2">
@@ -211,8 +189,8 @@
   <a class="reference internal" href="../../../projects/AMT/amt.html">
    Automatic Music Transcription
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -349,13 +327,23 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#creating-a-new-python-environment">
-   Creating a new python environment
+  <a class="reference internal nav-link" href="#creat-a-new-python-environment">
+   Creat a new python environment
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#check-anaocnda-version-that-have-installed">
    Check anaocnda version that have installed
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#check-the-environments-you-are-using-currently">
+   Check the environments you are using currently
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#change-to-others-environment">
+   Change to others environment
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -374,11 +362,11 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="anaconda-common-code">
-<h1>Anaconda common code<a class="headerlink" href="#anaconda-common-code" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="creating-a-new-python-environment">
-<h2>Creating a new python environment<a class="headerlink" href="#creating-a-new-python-environment" title="Permalink to this headline">¶</a></h2>
-<p>Decription: create a new environment named AMAAI with python 3.7 verion\</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="anaconda-cheatsheet">
+<h1>Anaconda Cheatsheet<a class="headerlink" href="#anaconda-cheatsheet" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="creat-a-new-python-environment">
+<h2>Creat a new python environment<a class="headerlink" href="#creat-a-new-python-environment" title="Permalink to this headline">¶</a></h2>
+<p>Decription: create a new environment named ‘AMAAI’ with python 3.7 verion\</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda create -n AMAAI <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.7
 </pre></div>
 </div>
@@ -389,9 +377,31 @@
 </pre></div>
 </div>
 </div>
+<div class="section" id="check-the-environments-you-are-using-currently">
+<h2>Check the environments you are using currently<a class="headerlink" href="#check-the-environments-you-are-using-currently" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda env list
+</pre></div>
+</div>
+<p>And you will see output like this</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ReconVAT</span>                 <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">kinwaicheuk</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">code_test</span><span class="o">/</span><span class="n">ReconVAT</span>
+<span class="n">debug</span>                    <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">kinwaicheuk</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">code_test</span><span class="o">/</span><span class="n">debug</span>
+<span class="n">jupyterbook</span>           <span class="o">*</span>  <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">kinwaicheuk</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">code_test</span><span class="o">/</span><span class="n">jupyterbook</span>
+<span class="n">my_awesome_env</span>           <span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">kinwaicheuk</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">code_test</span><span class="o">/</span><span class="n">my_awesome_env</span>
+<span class="n">base</span>                     <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">*</span></code> indicates the environment that you are currently in</p>
+</div>
+<div class="section" id="change-to-others-environment">
+<h2>Change to others environment<a class="headerlink" href="#change-to-others-environment" title="Permalink to this headline">¶</a></h2>
+<p>Decription: change environment into ‘AMAAI’</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda activate my_awesome_env
+</pre></div>
+</div>
+</div>
 <div class="section" id="delete-environment">
 <h2>Delete environment<a class="headerlink" href="#delete-environment" title="Permalink to this headline">¶</a></h2>
-<p>Decription: delete an AMAAI environmnet and everything in it\</p>
+<p>Decription: delete an ‘AMAAI’ environmnet and everything in it\</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda env remove --name AMAAI
 </pre></div>
 </div>

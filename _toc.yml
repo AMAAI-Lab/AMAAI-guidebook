@@ -13,13 +13,8 @@ parts:
   - file: docs/starter_pack/tutorials/linux/index
     sections:
     - file: docs/starter_pack/tutorials/linux/what_is_Linux
-    - file: docs/starter_pack/tutorials/linux/important_commands
 
   - file: docs/starter_pack/tutorials/docker/index
-
-  - file: docs/starter_pack/tutorials/python/index
-    sections:
-    - file: docs/starter_pack/tutorials/python/python_tutorial01   
     
   - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/index
     sections:
