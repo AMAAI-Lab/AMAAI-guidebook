@@ -41,7 +41,8 @@ git branch
 git push origin main
 ```
 
-**Step 7**: 
+**Step 7**: Enter passphrase for key.
+![new_repository_step7](./new_repository_step7.png)
 
 
 
