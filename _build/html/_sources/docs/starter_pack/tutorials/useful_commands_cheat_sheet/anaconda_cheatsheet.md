@@ -34,7 +34,7 @@ The `*` indicates the environment that you are currently in
 ## Change to others environment
 Decription: change environment into 'AMAAI'
 ```bash
-conda activate my_awesome_env
+conda activate AMAAI
 ```
 
 ## Delete environment

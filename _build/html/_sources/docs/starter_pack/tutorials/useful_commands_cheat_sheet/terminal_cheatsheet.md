@@ -1,4 +1,6 @@
-# Important commands
+# Terminal Cheatsheet
+
+Important commands
 
 ## pwd: checking current location
 ```bash

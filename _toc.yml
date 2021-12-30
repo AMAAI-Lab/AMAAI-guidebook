@@ -8,11 +8,11 @@ parts:
   chapters:
   - file: docs/starter_pack/setting_up/index
     sections:  
-    - file: docs/starter_pack/setting_up/mac/to_do_list       
+    - file: docs/starter_pack/setting_up/To_Do_List/to_do_list  
+    - file: docs/starter_pack/setting_up/New_repository
+    - file: docs/starter_pack/setting_up/Mac_keyboard_shortcuts
   
-  - file: docs/starter_pack/tutorials/linux/index
-    sections:
-    - file: docs/starter_pack/tutorials/linux/what_is_Linux
+  - file: docs/starter_pack/tutorials/linux_info
 
   - file: docs/starter_pack/tutorials/docker/index
     
