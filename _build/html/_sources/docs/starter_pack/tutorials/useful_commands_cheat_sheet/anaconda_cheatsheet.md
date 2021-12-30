@@ -2,7 +2,7 @@
 
 
 ## Creat a new python environment
-Decription: create a new environment named 'AMAAI' with python 3.7 verion\
+Decription: create a new environment named 'AMAAI' with python 3.7 verion
 ```bash
 conda create -n AMAAI python=3.7
 ```
@@ -12,7 +12,7 @@ conda create -n AMAAI python=3.7
 conda --version
 ```
 
-## Check the environments you are using currently 
+## Check the environment you are using currently 
 
 ```bash
 conda env list
@@ -38,7 +38,7 @@ conda activate AMAAI
 ```
 
 ## Delete environment
-Decription: delete an 'AMAAI' environmnet and everything in it\
+Decription: delete an 'AMAAI' environmnet and everything in it
 ```bash
 conda env remove --name AMAAI
 ```
