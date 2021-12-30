@@ -78,7 +78,7 @@ Download repository to your own GitHub account by clicking ‘fork’ button.
 ![git_clone_step2](./git_clone_step2.png)
 
 
-For more Git commands, you can check via GitHub Education
+For more Git commands, you can check via [GitHub Education](https://education.github.com/git-cheat-sheet-education.pdf)
 
 
 
