@@ -1,5 +1,13 @@
 # Git cheatsheet
 
+| Shortcut | Description |
+| -------------------- | -------------------- |
+| Command–Space bar | Show or hide the Spotlight search field |
+| 
+```bash
+git add AMAAI
+```
+| Screenshots a portion of the sceen |
 
 ```bash
 git add AMAAI
