@@ -329,6 +329,33 @@
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="create-a-new-repository">
 <h1>Create a new repository<a class="headerlink" href="#create-a-new-repository" title="Permalink to this headline">¶</a></h1>
+<p><strong>Step 1</strong>: Go to your GitHub account home page. There is a ‘New’ button near the left handside top corner as per below picture.</p>
+<p><img alt="new_repository_step1" src="../../../_images/new_repository_step1.png" /></p>
+<p><strong>Step 2</strong>: After clicking ‘New’ button, key in your repository name.
+Click certain setting as per your situation.</p>
+<p><img alt="new_repository_step2" src="../../../_images/new_repository_step2.png" /></p>
+<p><strong>Step 3</strong>: Add repository via terminal window. In this example, the repository calls ‘AMAAI’.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git add AMAAI
+</pre></div>
+</div>
+<p>Alternative use ‘git add .’ to represent <em>add all</em> the unpushed file.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git add .
+</pre></div>
+</div>
+<p><strong>Step 4</strong>: Add descriotion for your repository. Remember to use ‘<em>TEXT</em>’ for text content.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git commit -m <span class="s1">&#39;description of this committed file&#39;</span>
+</pre></div>
+</div>
+<p><strong>Step 5 (optional)</strong>: Use ‘git branch’ to find current branch name.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git branch
+</pre></div>
+</div>
+<p><img alt="new_repository_step5" src="../../../_images/new_repository_step5.png" /></p>
+<p><strong>Step 6</strong>: Update repository to GitHub. In this example, the branch name calls ‘main’.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git push origin main
+</pre></div>
+</div>
+<p><strong>Step 7</strong>:</p>
 </div>
 
     <script type="text/x-thebe-config">
