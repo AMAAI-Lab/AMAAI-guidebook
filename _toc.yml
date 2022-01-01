@@ -20,7 +20,6 @@ parts:
     sections:
     - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/anaconda_cheatsheet
     - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/git_cheatsheet
-    - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/python_cheatsheet
     - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/terminal_cheatsheet
     
 - caption: Research Projects
