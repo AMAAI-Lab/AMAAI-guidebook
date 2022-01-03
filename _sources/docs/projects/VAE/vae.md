@@ -9,7 +9,7 @@ AMAAI has developed different variational autoencoder (VAE) for audio applicatio
 ```{figure} ../../../images/vae_timbre_pitch_disentanglement.png
 ---
 width: 500px
-name: singing_voice_conversion
+name: audio feature disentanglement
 ---
 VAE for timbre and pitch disentanglement
 ```

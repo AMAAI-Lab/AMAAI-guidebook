@@ -1,15 +1,18 @@
-# Using Anaconda
+# Anaconda Cheatsheet
 
-[Anaconda](https://www.anaconda.com/products/individual) helps you to create and manage dofferent python enviroments easily. It is an essential tool for data scientists and AI researchers.
-## Creating a new python environment
 
+## Creat a new python environment
+Decription: create a new environment named 'AMAAI' with python 3.7 verion
 ```bash
-conda create -n "your_env_name" python=3.7
+conda create -n AMAAI python=3.7
 ```
 
-## Choosing your environments
+## Check anaocnda version that have installed
+```bash
+conda --version
+```
 
-You can check the environments you currently have using
+## Check the environment you are using currently 
 
 ```bash
 conda env list
@@ -27,8 +30,15 @@ base                     /opt/anaconda3
 
 The `*` indicates the environment that you are currently in
 
-If you want to change your environment into `my_awesome_env`, then you can do
 
+## Change to others environment
+Decription: change environment into 'AMAAI'
 ```bash
-conda activate my_awesome_env
+conda activate AMAAI
+```
+
+## Delete environment
+Decription: delete an 'AMAAI' environmnet and everything in it
+```bash
+conda env remove --name AMAAI
 ```
