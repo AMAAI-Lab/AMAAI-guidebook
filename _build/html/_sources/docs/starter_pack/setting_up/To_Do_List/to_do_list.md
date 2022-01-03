@@ -1,10 +1,5 @@
-# To Do List
+# First Step
  
-1. Set up Anaconda 
-1. Set up GitHub account
-1. Set up Discord
-
-
 ## Set up Anaconda 
 Why use Anaconda?\
 Anaconda helps you to create and manage different Python enviroments easily, since different project might use different version of Python and library. It is an essential tool for data scientists and AI researchers.
