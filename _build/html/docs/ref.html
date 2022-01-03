@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>References &#8212; SUTD-AMAAI Guidebook</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Reinforcement Learning" href="projects/reinforcement_learning/intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.jpeg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">SUTD-AMAAI Guidebook</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Welcome to AMAAI
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  SUTD Starter Pack
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="starter_pack/setting_up/index.html">
+   Setting things up
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/setting_up/To_Do_List/to_do_list.html">
+     First Step
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/setting_up/New_repository.html">
+     Create a new repository
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/setting_up/Mac_keyboard_shortcuts.html">
+     Mac Keyboard shortcuts
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="starter_pack/tutorials/linux_info.html">
+   Using Linux
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="starter_pack/tutorials/docker/index.html">
+   Using Docker
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="starter_pack/tutorials/useful_commands_cheat_sheet/index.html">
+   Cheat Sheet
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/tutorials/useful_commands_cheat_sheet/anaconda_cheatsheet.html">
+     Anaconda Cheatsheet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/tutorials/useful_commands_cheat_sheet/git_cheatsheet.html">
+     Git Cheatsheet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="starter_pack/tutorials/useful_commands_cheat_sheet/terminal_cheatsheet.html">
+     Interact with terminal Cheatsheet
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Research Projects
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects/nnAudio/intro.html">
+   nnAudio
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="projects/AMT/amt.html">
+   Automatic Music Transcription
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="projects/AMT/amt01.html">
+     Problem Formulation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="projects/AMT/amt02.html">
+     Source Codes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects/VAE/vae.html">
+   VAE for Audio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects/music_generation/generation.html">
+   Music Generation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects/emotion/emotion.html">
+   Multimodal Emotion Prediction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects/reinforcement_learning/intro.html">
+   Reinforcement Learning
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  External Links
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   References
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/docs/ref.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/AMAAI-Lab/singapore-music-classifier"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/AMAAI-Lab/singapore-music-classifier/issues/new?title=Issue%20on%20page%20%2Fdocs/ref.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#executing-code-in-your-markdown-files">
+   Executing code in your markdown files
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h1>
+<p id="id1"><dl class="citation">
+<dt class="label" id="id2"><span class="brackets">1</span></dt>
+<dd><p>Michael Scott Cuthbert and Christopher Ariza. Music21: a toolkit for computer-aided musicology and symbolic music data. In <em>ISMIR</em>. 2010.</p>
+</dd>
+<dt class="label" id="id3"><span class="brackets">2</span></dt>
+<dd><p>JQ Sun and Seok-Pil Lee. Query by singing/humming system based on deep learning. <em>Int. J. Appl. Eng. Res</em>, 12(13):973–4562, 2017.</p>
+</dd>
+<dt class="label" id="id4"><span class="brackets">3</span></dt>
+<dd><p>Yu-Siang Huang and Yi-Hsuan Yang. Pop music transformer: generating music with rhythm and harmony. <em>arXiv preprint arXiv:2002.00212</em>, 2020.</p>
+</dd>
+<dt class="label" id="id5"><span class="brackets">4</span></dt>
+<dd><p>Hung-Chen Chen and Arbee LP Chen. A music recommendation system based on music data grouping and user interests. In <em>Proceedings of the tenth international conference on Information and knowledge management</em>, 231–238. 2001.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets">5</span></dt>
+<dd><p>Albert Meroño-Peñuela, Rinke Hoekstra, Aldo Gangemi, Peter Bloem, Reinier de Valk, Bas Stringer, Berit Janssen, Victor de Boer, Alo Allik, Stefan Schlobach, and others. The midi linked data cloud. In <em>International Semantic Web Conference</em>, 156–164. Springer, 2017.</p>
+</dd>
+<dt class="label" id="id7"><span class="brackets">6</span></dt>
+<dd><p>Genki Yamaguchi and Makoto Fukumoto. A music recommendation system based on melody creation by interactive ga. In <em>2019 20th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)</em>, 286–290. IEEE, 2019.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets">7</span></dt>
+<dd><p>Qiuqiang Kong, Keunwoo Choi, and Yuxuan Wang. Large-scale midi-based composer classification. <em>arXiv preprint arXiv:2010.14805</em>, 2020.</p>
+</dd>
+<dt class="label" id="id9"><span class="brackets">8</span></dt>
+<dd><p>Zheng Jiang and Roger B Dannenberg. Melody identification in standard midi files. In <em>Proceedings of the 16th sound &amp; music computing conference</em>, 65–71. 2019.</p>
+</dd>
+<dt class="label" id="id10"><span class="brackets">9</span></dt>
+<dd><p>Zhang Liumei, Jiang Fanzhi, Li Jiao, Ma Gang, and Liu Tianshi. K-means clustering analysis of chinese traditional folk music based on midi music textualization. In <em>2021 6th International Conference on Intelligent Computing and Signal Processing (ICSP)</em>, 1062–1066. IEEE, 2021.</p>
+</dd>
+<dt class="label" id="id11"><span class="brackets">10</span></dt>
+<dd><p>José Pedro Magalhaes. Chordify: three years after the launch. In <em>ISMIR</em>. 2015.</p>
+</dd>
+<dt class="label" id="id14"><span class="brackets">11</span></dt>
+<dd><p>Kin Wai Cheuk, Yin-Jvun Luo, Emmanouil Benetos, and Dorien Herremans. The effect of spectrogram reconstruction on automatic music transcription: an alternative approach to improve transcription accuracy. In <em>2020 25th International Conference on Pattern Recognition (ICPR)</em>, 9091–9098. IEEE, 2021.</p>
+</dd>
+<dt class="label" id="id13"><span class="brackets">12</span></dt>
+<dd><p>Kin Wai Cheuk, Dorien Herremans, and Li Su. <em>ReconVAT: A Semi-Supervised Automatic Music Transcription Framework for Low-Resource Real-World Data</em>, pages 3918–3926. Association for Computing Machinery, New York, NY, USA, 2021. URL: <a class="reference external" href="https://doi.org/10.1145/3474085.3475405">https://doi.org/10.1145/3474085.3475405</a>.</p>
+</dd>
+<dt class="label" id="id12"><span class="brackets">13</span></dt>
+<dd><p>T. Miyato, S. Maeda, M. Koyama, and S. Ishii. Virtual adversarial training: a regularization method for supervised and semi-supervised learning. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 41(8):1979–1993, 2019. <a class="reference external" href="https://doi.org/10.1109/TPAMI.2018.2858821">doi:10.1109/TPAMI.2018.2858821</a>.</p>
+</dd>
+</dl>
+</p>
+<div class="section" id="executing-code-in-your-markdown-files">
+<h2>Executing code in your markdown files<a class="headerlink" href="#executing-code-in-your-markdown-files" title="Permalink to this headline">¶</a></h2>
+<p>If you’d like to include computational content inside these markdown files,
+you can use MyST Markdown to define cells that will be executed when your
+book is built. Jupyter Book uses <em>jupytext</em> to do this.</p>
+<p>First, add Jupytext metadata to the file. For example, to add Jupytext metadata
+to this markdown page, run this command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">markdown</span><span class="o">.</span><span class="n">md</span>
+</pre></div>
+</div>
+<p>Once a markdown file has Jupytext metadata in it, you can add the following
+directive to run the code at build time:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{code-cell}
+print(&quot;Here is some code to execute&quot;)
+```
+</pre></div>
+</div>
+<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
+executed with your default Jupyter kernel, and their outputs will be displayed
+in-line with the rest of your content.</p>
+<p>For more information about executing computational content with Jupyter Book,
+see <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyST-NB documentation</a>.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./docs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="projects/reinforcement_learning/intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Reinforcement Learning</p>
+        </div>
+    </a>
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Kin Wai Cheuk<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
