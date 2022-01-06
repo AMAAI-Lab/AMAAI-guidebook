@@ -11,9 +11,12 @@ parts:
     - file: docs/starter_pack/setting_up/To_Do_List/to_do_list  
     - file: docs/starter_pack/setting_up/New_repository
     - file: docs/starter_pack/setting_up/Mac_keyboard_shortcuts
-  
-  - file: docs/starter_pack/tutorials/linux_info
-
+    - file: docs/starter_pack/setting_up/Using_others_workstation
+    
+  - file: docs/starter_pack/tutorials/linux/index
+    sections: 
+    - file: docs/starter_pack/tutorials/linux/install_downloadvia_linuxterminal
+ 
   - file: docs/starter_pack/tutorials/docker/index
     
   - file: docs/starter_pack/tutorials/useful_commands_cheat_sheet/index
