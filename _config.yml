@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: SUTD-AMAAI Guidebook
-author: Kin Wai Cheuk
+author: Kin Wai Cheuk, Kwan Yee Heung
 logo: images/logo.jpeg
 
 # Force re-execution of notebooks on each build.
@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/AMAAI-Lab/singapore-music-classifier  # Online location of your book
+  url: https://github.com/AMAAI-Lab/AMAAI-guidebook  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
