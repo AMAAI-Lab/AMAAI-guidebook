@@ -1,7 +1,10 @@
 # AMAAI-guidebook
 
-To compile the book
-pip install -U jupyter-book
+This is the source code for the guidebook.
+
+The html version of this guidebook is assessible at:
+
+https://amaai-lab.github.io/AMAAI-guidebook/docs/index.html
 
 ## Compiling
 First make sure `jupyter-book` is installed. If not, it can be installed using:
