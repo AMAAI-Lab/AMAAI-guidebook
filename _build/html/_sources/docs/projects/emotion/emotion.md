@@ -1,2 +1,0 @@
-# Multimodal Emotion Prediction
-TODO
