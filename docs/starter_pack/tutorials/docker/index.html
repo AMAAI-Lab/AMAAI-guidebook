@@ -52,7 +52,7 @@
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
     <link rel="next" title="Cheat Sheet" href="../useful_commands_cheat_sheet/index.html" />
-    <link rel="prev" title="Using Linux" href="../linux_info.html" />
+    <link rel="prev" title="Install and download package via Linux terminal" href="../linux/install_downloadvia_linuxterminal.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -127,12 +127,29 @@
      Mac Keyboard shortcuts
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../setting_up/Using_others_workstation.html">
+     Using others workstation
+    </a>
+   </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../linux_info.html">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../linux/index.html">
    Using Linux
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../linux/install_downloadvia_linuxterminal.html">
+     Install and download package via Linux terminal
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
@@ -143,8 +160,8 @@
   <a class="reference internal" href="../useful_commands_cheat_sheet/index.html">
    Cheat Sheet
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -182,8 +199,8 @@
   <a class="reference internal" href="../../../projects/AMT/amt.html">
    Automatic Music Transcription
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -323,11 +340,60 @@
   <a class="reference internal nav-link" href="#docker-containers">
    Docker Containers
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-for-port-mapping-of-workstation-container">
+     Code for port mapping of workstation &amp; container
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#docker-images">
    Docker Images
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#useful-code-in-docker">
+   Useful code in docker
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#check-gpu-status">
+     Check GPU status
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list-out-active-container">
+     List out active container
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#list-out-all-the-container-including-active-and-non-active">
+     List out all the container, including active and non-active
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#enter-container">
+     Enter container
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exit-container">
+     Exit container
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-jupyter-notebook-in-workstation">
+     Open jupyter notebook in workstation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#monitor-gpu-running-progress">
+     Monitor GPU running progress
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -349,8 +415,7 @@
 </div>
 <div class="section" id="docker-containers">
 <h2>Docker Containers<a class="headerlink" href="#docker-containers" title="Permalink to this headline">¶</a></h2>
-<table class="table" id="id2">
-<caption><span class="caption-number">Table 1 </span><span class="caption-text">This is an example</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<table class="table">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -364,33 +429,85 @@
 </tr>
 </tbody>
 </table>
-<div class="sphinx-bs container-fluid docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-0 col-md-6 col-sm-6 col-xs-0 p-0 m-0 docutils">
-<div class="card w-100 shadow-none border-0 docutils">
-<div class="card-body docutils">
-<div class="figure align-default" id="id1">
-<a class="reference internal image-reference" href="https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-appliction-blue-border_2.png"><img alt="https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-appliction-blue-border_2.png" src="https://www.docker.com/sites/default/files/d8/2018-11/docker-containerized-appliction-blue-border_2.png" style="width: 100%;" /></a>
-<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Docker Containers (Apps)</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-0 col-md-6 col-sm-6 col-xs-0 p-0 m-0 docutils">
-<div class="card w-100 shadow-none border-0 docutils">
-<div class="card-body docutils">
-<div class="figure align-default" id="virtual-machines">
-<a class="reference internal image-reference" href="https://www.docker.com/sites/default/files/d8/2018-11/container-vm-whatcontainer_2.png"><img alt="https://www.docker.com/sites/default/files/d8/2018-11/container-vm-whatcontainer_2.png" src="https://www.docker.com/sites/default/files/d8/2018-11/container-vm-whatcontainer_2.png" style="width: 100%;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Virtual Machines</span><a class="headerlink" href="#virtual-machines" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-</div>
-</div>
+<div class="section" id="code-for-port-mapping-of-workstation-container">
+<h3>Code for port mapping of workstation &amp; container<a class="headerlink" href="#code-for-port-mapping-of-workstation-container" title="Permalink to this headline">¶</a></h3>
+<p>Description: create container with port  mapping to workstation</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nvidia-docker run -it -v /data/<span class="o">[</span>user_name<span class="o">]</span>:/workspace/<span class="o">[</span>user_name<span class="o">]</span> --shm-size<span class="o">=</span>128gb 
+-v /etc/timezone:/etc/timezone:ro 
+-v /etc/localtime:/etc/localtime:ro -p 100XX-100XX:100XX-100XX 
+--name <span class="o">[</span>container_name<span class="o">]</span> pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel
+</pre></div>
 </div>
 </div>
 </div>
 <div class="section" id="docker-images">
 <h2>Docker Images<a class="headerlink" href="#docker-images" title="Permalink to this headline">¶</a></h2>
+<p>Description: check the list of stored image</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker images 
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the docker image, you can check via <a class="reference external" href="https://hub.docker.com/search?type=image">Docker Hub</a></p>
+</div>
+</div>
+<div class="section" id="useful-code-in-docker">
+<h2>Useful code in docker<a class="headerlink" href="#useful-code-in-docker" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="check-gpu-status">
+<h3>Check GPU status<a class="headerlink" href="#check-gpu-status" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nvidia-smi 
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-out-active-container">
+<h3>List out active container<a class="headerlink" href="#list-out-active-container" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker ps 
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-out-all-the-container-including-active-and-non-active">
+<h3>List out all the container, including active and non-active<a class="headerlink" href="#list-out-all-the-container-including-active-and-non-active" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker ps -a  
+</pre></div>
+</div>
+<p><img alt="docker_ps_-a" src="../../../../_images/docker_ps_-a.png" /></p>
+</div>
+<div class="section" id="enter-container">
+<h3>Enter container<a class="headerlink" href="#enter-container" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker <span class="nb">exec</span> -it <span class="o">[</span>container name<span class="o">]</span> bash 
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your container is in non-active status, you need to start container before you can enter the container. You can use ‘docker ps -a’ to check your container status.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker start <span class="o">[</span>container_name<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="exit-container">
+<h3>Exit container<a class="headerlink" href="#exit-container" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">exit</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="open-jupyter-notebook-in-workstation">
+<h3>Open jupyter notebook in workstation<a class="headerlink" href="#open-jupyter-notebook-in-workstation" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter notebook --ip<span class="o">=</span><span class="m">0</span>.0.0.0 --port<span class="o">=[</span>100XX<span class="o">]</span> --allow-root --no-browser
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Browser to jupyter with port number: http://localhost:100XX/</p>
+</div>
+</div>
+<div class="section" id="monitor-gpu-running-progress">
+<h3>Monitor GPU running progress<a class="headerlink" href="#monitor-gpu-running-progress" title="Permalink to this headline">¶</a></h3>
+<p>Description: can customize the updated timeframe for GPU. For example, request updated in every 0.2s.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>watch -d -n <span class="m">0</span>.2 nvidia-smi 
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 
@@ -419,11 +536,11 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../linux_info.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../linux/install_downloadvia_linuxterminal.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Using Linux</p>
+            <p class="prev-next-title">Install and download package via Linux terminal</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../useful_commands_cheat_sheet/index.html" title="next page">
