@@ -8,4 +8,3 @@ We will be using a lot of linux commands to train our models and organize our fi
 The contents here are taken from [lifewire](https://www.lifewire.com/beginners-guide-to-linux-4090233).
 
 More Linux background information can refer to [Linux Wiki](https://en.wikipedia.org/wiki/Linux).
-
